@@ -1,0 +1,26 @@
+@media only screen and (max-width: 767px)
+{
+    .single-product
+    {
+        .row 
+        {
+            text-align: left;
+        }
+
+        .col-2
+        {
+            padding: 20px 0;
+        }
+
+        h1 
+        {
+            font-size: 26px;
+            line-height: 32px;
+        }
+    }
+}
+
+@media only screen and (max-width: 370px)
+{
+
+}

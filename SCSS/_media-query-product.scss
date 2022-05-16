@@ -1,0 +1,28 @@
+@media only screen and (max-width: 400px) 
+{
+    select 
+    {
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 370px) 
+{
+    .row-2 h2
+    {
+        margin: 0 auto;
+    }
+
+    .row-2 select
+    {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    .page-btn span 
+    {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+}

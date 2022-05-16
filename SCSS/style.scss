@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+
+
+ul 
+{
+    list-style-type: none;
+}
+
+/*general*/
+@import 'variables';
+@import 'mixins';
+@import 'layout';
+
+/*index*/
+@import 'header';
+@import 'categories';
+@import 'offer';
+@import 'testimonials';
+@import 'brands';
+@import 'footer';
+
+/*product*/
+@import 'product';
+
+/*product-details*/
+@import 'product-details';
+
+/*cart*/
+@import 'cart-page';
+
+/*account*/
+@import 'account-page';
+
+/*contact*/
+@import 'contact-page';
+
+/*about*/
+@import 'about-us';
+
+
+/*media query*/
+@import 'media-query-index';
+@import 'media-query-product';
+@import 'media-query-product-details';
+@import 'media-query-cart';
+@import 'media-query-account';
+@import 'media-query-contact';
+@import 'media-query-about';
+
+
